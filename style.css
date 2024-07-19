@@ -176,6 +176,7 @@ border-radius: 5px;
   float: left;
   width: 25%;
   padding: 0 10px;
+  transition: all 0.5s ease-in-out;
 }
 
 .row {margin: 0 -5px;}
@@ -191,12 +192,14 @@ border-radius: 5px;
   text-align: center;
   background-color: white;
   border-radius: 10%;
+  transition: all 0.5s ease-in-out;
 }
 
 #ppics{
   width: 280px;
   height: 280px;
   border-radius: 5%;
+  transition: all 0.5s ease-in-out;
 }
 
 #sep{
