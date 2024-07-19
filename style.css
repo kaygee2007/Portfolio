@@ -67,6 +67,7 @@ border-radius: 5px;
   margin-top: 115px;
   color: #d3b289;
   font-size: 42px;
+  margin-bottom: 20px;
 }
 
 #h2{
@@ -83,7 +84,8 @@ border-radius: 5px;
 }
 
 #bio{
-  margin-top: -40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 #btn2{
@@ -163,6 +165,7 @@ border-radius: 5px;
 #hr3{
   width: 210px;
   border: 1px solid black;
+  margin-bottom: 40px;
 }
 
 * {
@@ -199,6 +202,13 @@ border-radius: 5px;
 #sep{
   text-decoration: none;
   color: #d3b289;
+}
+
+.iconsse{
+  width: 55px;
+  height: 55px;
+  position: relative;
+  top: 25px;
 }
 
 #smblock{
@@ -249,6 +259,7 @@ border-radius: 5px;
     margin-top: 100px;
     position: relative;
     justify-content: center;
+    margin-right: 60px;
   }
   .navbar{
     margin-top: 0px;

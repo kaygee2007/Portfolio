@@ -181,6 +181,7 @@ body{
     }
     .about-left{
         position: relative;
+        margin-bottom: 600px;
     }
     .about-left-content{
         position: absolute;
@@ -189,7 +190,7 @@ body{
 }
 
 .hr1{
-    width: 550px;
+    width: 0.1px;
     position:relative;
     bottom: 35px;
     height: 3px;

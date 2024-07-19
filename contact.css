@@ -506,5 +506,13 @@ footer{
         padding: 8px;
         margin: 4px;
     }
+    .hr1{
+      margin-bottom: 1150px;
+      width: 30px;
+    }
+    .about-right{
+      position: relative;
+      top: 140px;
+    }
 }
 
