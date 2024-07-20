@@ -10,6 +10,11 @@ body, html {
     position: relative;
     right: 22px;
 }
+@media (max-width: 600px) {
+    #firstlogo{
+        position: relative;
+        right: 10px;}
+}
 .loading-container {
     text-align: center;
 }

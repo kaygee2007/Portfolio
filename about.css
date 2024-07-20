@@ -13,6 +13,22 @@ body{
     margin-top: -50px;
     margin-bottom: 70px;
 }
+#linn{
+    width: 400px;
+    border: 2px solid #d3b289;
+}
+#linee{
+    width: 200px;
+    border: 2px solid #d3b289;
+    position: relative;
+    top: 10px;
+}
+#line{
+    width: 100px;
+    border: 2px solid #d3b289;
+    position: relative;
+    top: 20px;
+}
 .about-left{
     background: #d3b289;
     display: flex;
@@ -20,6 +36,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
 }
 .about-left-content > div{
     background: #dac3a8;
@@ -172,6 +189,8 @@ body{
     font-weight: 300;
     padding: 0.5rem;
     opacity: 0.8;
+    position: relative;
+    top: 15px;
 }
 
 @media screen and (min-width: 992px){

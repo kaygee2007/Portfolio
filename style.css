@@ -176,9 +176,11 @@ border-radius: 5px;
   float: left;
   width: 25%;
   padding: 0 10px;
-  transition: all 0.5s ease-in-out;
 }
-
+.column:hover{
+  transform: rotateY('360deg');
+  transition: 2s;
+}
 .row {margin: 0 -5px;}
 
 .row:after {
@@ -187,21 +189,26 @@ border-radius: 5px;
   clear: both;
 }
 
-.card { 
+.cardd { 
   padding: 16px;
   text-align: center;
-  background-color: white;
   border-radius: 10%;
-  transition: all 0.5s ease-in-out;
 }
-
+.cardd:hover{
+  transform: rotateY('360deg');
+  transition: 2s;
+  box-shadow: 7px 0px 7px #d3b289;
+  background-color: #11111118;
+}
 #ppics{
   width: 280px;
   height: 280px;
   border-radius: 5%;
-  transition: all 0.5s ease-in-out;
 }
-
+.ppics:hover{
+  transform: scale(1.2);
+  transition: 2s;
+}
 #sep{
   text-decoration: none;
   color: #d3b289;
